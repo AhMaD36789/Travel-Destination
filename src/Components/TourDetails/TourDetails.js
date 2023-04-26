@@ -3,6 +3,7 @@ import Header from "../header/Header";
 import { Card, Button } from "react-bootstrap";
 import "./TourDetails.css";
 import { useState } from 'react';
+import Footer from '../footer/Footer'
 
 const charNum = 111;
 
@@ -22,7 +23,7 @@ function TourDeatails(props) {
     const showLessString = () => {
         document.getElementById("moreBtn").style.display = "none";
         props.data.filter(item => item.id === id).map(item => (
-            lineAdd('...')
+            lineAdd('')
         ))
         document.getElementById("lessBtn").style.display = "none";
         document.getElementById("moreBtn").style.display = "inline-block";
@@ -37,7 +38,7 @@ function TourDeatails(props) {
                         <div className="more" key={item.id}>
                             <h1>{item.name}</h1>
                             <p>
-                                {item.info.substring(0, charNum) + showMore}
+                                {item.info.substring(0, charNum) +''+ showMore}
                             </p>
                             <Button onClick={showMoreString} id="moreBtn">show more </Button>
                             <Button onClick={showLessString} id="lessBtn">show less </Button>
@@ -45,6 +46,7 @@ function TourDeatails(props) {
                     ))}
                 </Card.Body>
             </Card>
+            <Footer />
 
 
         </>
