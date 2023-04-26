@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+.Card{
+    background-color:#c6c6c3;
+    color: #141e27;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 40px;
+
+
+}
+.Card img{
+    width: 100%;
+    max-width: 400px;
+    min-width: 400px;
+    height: 300px;
+    object-fit: cover;
+
+
+}
+body{
+    background-color: #c6c6c3;
+    text-align: center;
+
+}
+.Card a{
+    text-decoration: none;
+    color: #141e27;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}

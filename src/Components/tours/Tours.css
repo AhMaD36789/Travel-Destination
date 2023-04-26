@@ -1,0 +1,13 @@
+.mainCard{
+    background-color:#c6c6c3;
+    color: #141e27;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10rem;
+}

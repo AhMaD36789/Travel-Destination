@@ -1,8 +1,8 @@
 import './Header.css';
-
+import Navbar from '../navbar/Navbar';
 function Header(){
     return <>
-    <h1>Title</h1>
+    <Navbar/>
     </>
 }
 export default Header;

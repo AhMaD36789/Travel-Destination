@@ -1,0 +1,19 @@
+#lessBtn{
+    display: none;
+}
+.more{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    width: 20%;
+    margin-left: 40%;
+    color: #141e27;
+    background-color: #a3aba0;
+    padding: 1rem;
+    border-radius: 2rem;
+    font-size: larger;
+}
+button{
+    background-color: #141e27;
+    color: #c6c6c3;
+}
