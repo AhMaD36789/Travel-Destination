@@ -1,0 +1,11 @@
+.Card{
+    background-color:#c6c6c3;
+    color: #141e27;
+    margin-left: 1rem;
+}
+img{
+    max-width: 30%;
+}
+body{
+    background-color: #c6c6c3;
+}
